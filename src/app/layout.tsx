@@ -1,3 +1,5 @@
+import "./globals.css";
+// import "../App.css";
 
 export default function RootLayout({
   children,
@@ -7,10 +9,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <title>React ポートフォリオサイト</title>
-      <body
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
