@@ -1,11 +1,12 @@
-import {Header} from "@/components/Header";
-import { NameText } from "./NameText";
-
+import { Contact } from "@/components/Contact";
+import { Header } from "@/components/Header";
+import { Skills } from "@/components/Skills";
 export default function Home() {
   return (
-    <div>
+    <>
       <Header />
-      <p>Portfolioページ</p>
-    </div>
+      <Skills />
+      <Contact />
+    </>
   );
 }
